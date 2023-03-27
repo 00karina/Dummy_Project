@@ -1,0 +1,20 @@
+.multicarousal_wrapper{
+    width:80%;
+    text-align: center;
+}
+.customer_review{
+    margin-top: 15px;
+    justify-content: center;
+    font-family: "sagona";
+    font-weight:500;
+    font-size:14px;
+}
+.customer_name{
+    text-align: center;
+    font-size:12px;
+}
+.verified_customer{
+    color:rgb(121, 211, 160);
+    font-size:14px; 
+    
+}

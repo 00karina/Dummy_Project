@@ -1,0 +1,40 @@
+.wrapper_container{
+    width:60% !important;
+    height:100%;
+}
+#faq_details{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    color:rgb(2, 2, 48);
+    text-decoration: underline;
+}
+#panel1a-header{
+    font-family: "sagona"
+}
+#panel1a{
+    font-family: 'Lato', sans-serif;
+    color:grey;
+}
+.icon{
+    color: #aa151d;
+    margin:20px;
+}
+@media only screen and (max-width: 600px) {
+    #faq_details{
+      font-size: 12px !important;
+      flex-direction: column;
+      padding: -20px;
+  }
+
+  }
+  @media only screen and (max-width: 900px) {
+    #faq_details{
+      font-size: 14px;
+  }
+  .wrapper_container{
+    width:100% !important;
+    height:100%;
+}
+  }
+  

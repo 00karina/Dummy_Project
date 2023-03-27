@@ -1,0 +1,50 @@
+.banner_wrapper{
+    width:75%;
+    margin: 0 auto;
+    margin-top:10vh;
+    height:140px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: #fff;
+    padding:20px;
+  
+
+}
+.row_bannner{
+    display:flex;
+}
+.flex_banner{
+    display:flex;
+    vertical-align: middle;
+    font-family:"sagona";
+    height:120px;
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 10px;
+       
+    
+}
+.flex_banner p{
+   
+    font-size:20px;
+     font-family:"sagona"!important;
+     
+  
+}
+.flex_banner span{
+    color:"grey";
+    font-size:14px;
+
+  
+    
+}
+.icon_banner{
+    font-size:45px;
+    margin-right:20px
+}
+@media only screen and (max-width: 600px) {
+    .banner_wrapper {
+     width:100%;
+     height:100%;
+     padding:20px;
+    }
+  }

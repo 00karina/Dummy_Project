@@ -1,0 +1,17 @@
+.detail_wrapper{
+    padding-top:4vh;
+    background-color:#fcf8ed;
+}
+*{
+font-family: 'Lato', sans-serif;
+}
+
+#carousels{
+ width:70%;
+}
+@media only screen and (max-width: 600px) {
+    #carousels{
+        width:100%;
+        margin-top: -;
+       }
+  }
